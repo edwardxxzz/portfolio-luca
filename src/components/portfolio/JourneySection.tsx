@@ -16,7 +16,7 @@ const journeyItems = [
     description:
       'Ingresso na Licenciatura Plena em História pela Universidade Federal do Amazonas. A paixão pelo ensino e pela pesquisa histórica começou a tomar forma.',
     institution: 'Universidade Federal do Amazonas',
-    image: '/hero-banner.png',
+    image: '/amazon-landscape.png',
     tags: ['Graduação', 'UFAM'],
   },
   {
@@ -43,7 +43,7 @@ const journeyItems = [
     description:
       'Aulão ao vivo para todo o Estado do Amazonas no projeto Conquistar, oferecido pela Secretaria de Educação. Demonstração de oratória para centenas de alunos simultaneamente.',
     institution: 'SEDUC — Projeto Conquistar',
-    image: '/hero-banner.png',
+    image: '/amazon-landscape.png',
     tags: ['Aulão', 'Oratória', 'SEDUC'],
   },
   {
@@ -70,7 +70,7 @@ const journeyItems = [
     description:
       'Gravação de aulas de História do Amazonas para a plataforma de preparação Aprova Total. O conhecimento amazônico ganhando alcance digital.',
     institution: 'Aprova Total',
-    image: '/hero-banner.png',
+    image: '/cert-placeholder.png',
     tags: ['Online', 'História do Amazonas'],
   },
   {
@@ -97,7 +97,7 @@ const journeyItems = [
     description:
       'Conclusão da Licenciatura Plena em História pela Universidade Federal do Amazonas. Um marco na formação acadêmica e profissional.',
     institution: 'UFAM',
-    image: '/hero-banner.png',
+    image: '/cert-placeholder.png',
     tags: ['Graduação', 'Conclusão'],
   },
   {

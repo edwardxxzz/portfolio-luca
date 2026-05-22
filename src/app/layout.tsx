@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Luca | Professor de História",
   description:
-    "Portfolio profissional de Luca — Professor de História com especialização em História do Amazonas, História do Brasil e História Global. Mestre em oratória, amante de rock e defensor da educação acessível.",
+    "Portfolio profissional de Luca — Professor de História com especialização em História do Amazonas, História do Brasil e História Global. Oratória, educação popular e pensamento crítico.",
   keywords: [
     "Professor de História",
     "História do Amazonas",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Luca | Professor de História",
     description:
-      "Portfolio profissional — História, Educação e Rock and Roll",
+      "Portfolio profissional — Professor de História especializado em História do Amazonas",
     type: "website",
   },
 };

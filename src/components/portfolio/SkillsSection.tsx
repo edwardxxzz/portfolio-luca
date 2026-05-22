@@ -123,7 +123,7 @@ export function SkillsSection() {
           ))}
         </div>
 
-        {/* Bottom accent banner - Amazon landscape instead of guitar */}
+        {/* Bottom accent banner */}
         <div className="mt-16 relative rounded-2xl overflow-hidden group">
           <img
             src="/amazon-landscape.png"

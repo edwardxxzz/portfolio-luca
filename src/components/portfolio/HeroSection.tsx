@@ -3,43 +3,39 @@
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0">
-        <img
-          src="/hero-banner.png"
-          alt="Banner — História e Conhecimento"
-          className="w-full h-full object-cover"
-        />
-        <div className="hero-overlay absolute inset-0" />
-      </div>
+      {/* Background - solid gradient, no image */}
+      <div className="absolute inset-0 bg-gradient-to-br from-charcoal via-charcoal-mid to-charcoal" />
 
-      {/* Decorative elements */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-crimson/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-gold/8 rounded-full blur-[150px] pointer-events-none" />
+      {/* Subtle decorative shapes */}
+      <div className="absolute top-20 left-10 w-72 h-72 bg-crimson/8 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-gold/6 rounded-full blur-[150px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-crimson/[0.03] rounded-full blur-[200px] pointer-events-none" />
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
         {/* Tag */}
-        <div className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full border border-crimson/20 bg-crimson/[0.08] mb-8 backdrop-blur-sm">
+        <div className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full border border-crimson/20 bg-crimson/[0.08] mb-10 backdrop-blur-sm">
           <span className="w-2 h-2 bg-crimson rounded-full animate-pulse" />
           <span className="text-sm text-crimson-light font-medium tracking-wider uppercase">
             Professor de História
           </span>
         </div>
 
-        {/* Main Title */}
-        <h1 className="text-5xl sm:text-7xl lg:text-[5.5rem] font-black tracking-tight mb-8 leading-[1.05]">
+        {/* Main Title - only the name, big and bold */}
+        <h1 className="text-6xl sm:text-8xl lg:text-9xl font-black tracking-tight mb-6 leading-[1]">
           <span className="text-foreground">Luca</span>
-          <br />
-          <span className="text-gradient-crimson">História & Compromisso</span>
         </h1>
 
-        {/* Subtitle */}
-        <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed font-light">
-          Transformando salas de aula em espaços de consciência crítica.
+        {/* Subtitle line - professional description, not equated to the name */}
+        <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground max-w-3xl mx-auto mb-6 leading-relaxed font-light">
+          Professor de História especializado em História do Amazonas,
           <br className="hidden sm:block" />
-          Do Amazonas ao mundo — com domínio do conteúdo e compromisso
-          com a educação popular.
+          com atuação em educação popular e pensamento crítico.
+        </p>
+
+        {/* Secondary info line */}
+        <p className="text-base sm:text-lg text-muted-foreground/60 max-w-2xl mx-auto mb-14 leading-relaxed font-light">
+          UFAM &bull; PUC-MG &bull; Manaus, Amazonas
         </p>
 
         {/* CTA Buttons */}

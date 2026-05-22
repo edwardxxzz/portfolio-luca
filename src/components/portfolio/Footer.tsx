@@ -102,7 +102,7 @@ export function Footer() {
           <div className="flex items-center gap-1.5">
             <span className="w-1.5 h-1.5 bg-crimson rounded-full" />
             <span className="w-1.5 h-1.5 bg-gold rounded-full" />
-            <span className="text-xs text-muted-foreground/40 ml-1 font-light">História & Compromisso</span>
+            <span className="text-xs text-muted-foreground/40 ml-1 font-light">Educação & Transformação</span>
           </div>
         </div>
       </div>
